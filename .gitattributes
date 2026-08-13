@@ -1,1 +1,4 @@
+img/video/Portfolio[[:space:]]video.mp4 filter=lfs diff=lfs merge=lfs -text
+img/Pitch[[:space:]]Deck[[:space:]]Video.mp4 filter=lfs diff=lfs merge=lfs -text
+img/PitchDeck[[:space:]]Video.mp4 filter=lfs diff=lfs merge=lfs -text
 *.mp4 filter=lfs diff=lfs merge=lfs -text
