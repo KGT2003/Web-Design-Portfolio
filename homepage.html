@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css">
+
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><span></span></a>
+
+        <ul class="nav-links">
+            <li>
+                <a href="#about">About</a>
+
+            </li>
+              <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <a href="https://github.com/KGT2003"target="_blank" class="social-link">
+        <button class="visit-btn">Visit Github</button></a>
+    </header>
+    <section id="about" class="about" class="fade-in">
+        <div class="about-container">
+        <img src="img/20241012_222441.jpg" width="700px" height="400px">
+        <div class="info-box">
+        <div class="text">
+            <h3>Hi, My Name is</h3>
+            <h1>Afriyie Assamany</h1>
+            <p>I'm a senior student attending the University of Central Florida<br>
+            I'm currently on track to receive a bachelor's degree in Digital Media.<br>
+            Growing up, I always had a passion for bringing my ideas to the digital screen.
+            At a young age, I designed characters and created storylines for cartoons.
+            In college, I developed a passion for  creating intricate design layouts and crafting enganging experiences . My goal with designing websites is to not only design visually apealing pages, but
+            to improve the user experience for my clients so they continue to access my websites.
+            Click on my linkedIn down below to learn more about me and the work I've completed. 
+             </p>
+        </div>
+        <div class="btn-group">
+            <a href="#contact" id="contact-btn" class="btn">
+            <div>Contact</div></a>
+        </div>
+        <div class="socials">
+            <a href="https://github.com/KGT2003"target="_blank" class="social-link">
+            <i class="fa-brands fa-github"></i></a>
+            <a href="https://linkedin.com/in/afriyie-assamany-1606a6259/"target="_blank" rel="noopener noreferrer" class="social-link">
+            <i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section id="experience" class="experience">
+
+        <h2 class="section-title">Experience</h2>
+    <div class="experience-info">
+
+        <div class="grid">
+
+            <div class="grid-card">
+                <h3 class="intern">Internship</h3>
+                <img src="img/A&H.jpg" alt="A&H image" height="300px" width="200px">
+                <p>
+                    During the summer  of 2026 I interned in digital marketing at  the Art & History Museums of Maitland Florida.<br>
+                    During this intenship I created a marketing campaign, developed an SEO Pitch Deck, and edited videos
+                    for the Art and History Museums social media pages.
+                </p>
+            </div>
+        </div>
+ <img src="img/20241012_222441.jpg" alt="Profile Photo">
+    </div>
+    </section>
+    <section id="projects" class="projects">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="projects-grid">
+
+        <div class="project-card">
+            <img src="img/React Portfolio Screenshot.png"  alt="Portfolio" class="img">
+            <h3>React Portfolio</h3>
+            <p>This is my React Portfolio I made in my Mobile Development class<br>
+            In this video, I showcase three projects that I developed. </p>
+            <div class="btn-group">
+                <a href="img/video/Portfolio video.mp4" target="_blank class=btn">
+                <div id="btn">Live Demo</div></a>
+                
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="img/Quiz App Screenshot.png" alt="Quiz App" class="img">
+            <h3>React Quiz App</h3>
+            <p>This is a simple 5 questions quiz I made using React in my Mobile Development class.<br>
+            I provide a video down below where I answer each question of the test, and recieve a final score<br>
+            at the end.</p>
+            <div class="btn-group">
+                <a href="img/video/quizzapp.mp4" target="_blank class=btn">
+                <div id="btn">Live Demo</div></a>
+                
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="img/SEO Pitch Deck Screenshot.png" alt="Pitch Deck" class="img">
+            <h3>SEO Pitch Deck</h3>
+            <p>Text</p>
+            <div class="btn-group">
+                <a href="img/Pitch Deck Video.mp4" target="_blank class=btn">
+                <div id="btn">Live Demo</div></a>
+                
+            </div>
+        </div>
+
+    </div>
+</section>
+<section id="contact" class="contact">
+    <div class="input-box">
+        <h2 class="section-title">Contact Me</h2>
+        <div id="input">
+            <form action="#" id="contact-form">
+             <input name="first_name" type="text" id="First-Name" placeholder="First-Name" class="input-field" required>
+             <input name="last_name" type="text" id="Last-Name" placeholder="Last-Name"class="input-field" required>
+             <input name="email" type="text" id="Email" placeholder="example@email.com" class="input-field" required>
+              <input name="subject" type="text" id="Subject" placeholder="Subject" class="input-field" required>
+            <textarea name="message" id="message" placeholder="Message" class="input-field" required></textarea>
+        </div>
+        <button type="submit" id="Submit" class="btn">Contact Me </button>
+        <div class="loader">
+            <i class="lni lnis-spinner-3"></i>
+        </div>
+        <div class="form-message"></div>
+        </form>
+    </div>
+</section>
+<footer>
+    <ul>
+        <li>
+            <a href="#about">About</a>
+        </li>
+         <li>
+            <a href="#experience">Experience</a>
+        </li>
+        <li>
+            <a href="#projects">Projects</a>
+        </li>
+        <li>
+            <a href="#contact">Contacts</a>
+        </li>
+    </ul>
+    <p class="copyright">c All Rights Reserved | Afriyie Assamany</p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="js/javascript.js" defer></script>
+
+</body>
+</html>
