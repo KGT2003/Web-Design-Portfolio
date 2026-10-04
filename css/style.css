@@ -417,7 +417,7 @@ footer ul li a{
     font-size: 300;
     margin-top: 3rem;
 }
-@media(max-width: 1280px) {
+@media(max-width: 1250px) {
     header {
         padding: 1 rem 2re;
         gap: 2rem;
